@@ -1,4 +1,21 @@
-# AngularDocker
+# Angular9
+
+# docker image build for development
+
+`docker build -t angular:dev .`
+
+spin up the container
+
+`docker run -v ${PWD}:/app -v /app/node_modules -p 4201:4200 --rm angular:dev`
+
+# docker image build for production
+
+`docker build -f Dockerfile-prod -t example:prod .`
+
+spin up the container
+
+`docker run -it -p 80:80 --rm example:prod`
+
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.0.2.
 
