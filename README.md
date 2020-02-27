@@ -16,6 +16,14 @@ spin up the container
 
 `docker run -it -p 80:80 --rm example:prod`
 
+making up
+
+`docker-compose up -d`
+
+making down
+
+`docker-compose down`
+
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.0.2.
 
